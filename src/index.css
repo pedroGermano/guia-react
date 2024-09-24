@@ -1,0 +1,24 @@
+:root{
+  --neutral-100: #f0ece5;
+  --neutral-200: #b6bbc4;
+  --neutral-300: #313040;
+  --neutral-400: #161a30;
+  --green-100: #00ffab;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+}
+
+body{
+  background: var(--neutral-400);
+  color: var(--neutral-100);
+}
+
+button{
+  cursor: pointer;
+}
